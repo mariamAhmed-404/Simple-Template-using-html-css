@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+background-color: white;
+}
+.header
+{
+    width:100%;
+    height:80px;
+    background-color: rgba(237, 218, 218, 0.662);
+    position: fixed;
+    top:0;
+}
+.ul1 
+{
+    list-style: none;
+    float: right;
+    margin-right: 120px;
+    margin-top: 25px;
+}
+.ul1 li{
+   display: inline-block;
+   margin-left: 25px;
+   font-size: 21px;
+}
+.ul1 li a{
+    text-decoration: none;
+    color: rgb(57, 54, 54);
+}
+.ul1 li a:hover{
+    color: white;
+}
+.btn1
+{
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(153, 150, 150, 0.381);
+}
+.btn1 b{
+    color: white;
+}
+.btn1:hover,.btn1 b:hover{
+    background-color: rgba(255, 255, 255, 0.189);
+    color: rgb(57, 54, 54);
+}
+
+
+
+.div1
+{
+transition:3s;
+width:100%;
+height:420px;
+background-image: url(../images/zetong-li-U3XjYJjOxbU-unsplash.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.div2
+{
+    padding-top: 200px;
+    padding-left: 80px;
+    color:rgb(255, 255, 255);
+}
+.parent
+{
+    width:100%;
+    height:230px;
+    overflow: auto;
+    margin-top: 30px;
+    background-color: rgba(237, 218, 218, 0.37);
+    border-radius: 10px;
+}
+.div3,.div4,.div5
+{
+ width:335px;
+ height:165px;
+background-color: white;
+ border:2px solid rgb(143, 141, 141);
+ border-radius: 10px;
+ margin:20 75 20 85;
+ float:left;
+}
+.div3:hover,.div4:hover,.div5:hover
+{
+    background-color: rgba(153, 150, 150, 0.112);
+}
+.div3 h2,.div4 h2,.div5 h2{
+    padding:10 0 10 30;
+    color: rgba(48, 47, 47, 0.6);
+}
+.div3 p,.div4 p,.div5 p{
+    padding:5 0 10 30;
+    color: rgba(45, 43, 43, 0.541);
+    
+}
+.div6
+{
+   padding: 40px;
+   text-align: center;
+   color: rgba(45, 43, 43, 0.749);
+}
+.title1
+{
+    font-size: 40px;
+}
+.title2{
+    font-size: 25px;
+}
+.v2_form
+{ 
+    overflow: auto;
+    width:100%;
+    height:410px;
+    background-color: rgba(237, 218, 218, 0.37);
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.div_form{
+    width:30%;
+    height:100%;
+    border:2px solid rgba(94, 87, 87, 0.505); 
+    border-radius: 10px;
+    background-color: white; 
+    padding :20px;
+    margin-left: 520px;
+}
+.div_form:hover{
+    background-color: rgba(107, 99, 99, 0.039);
+}
+.style
+{
+    margin:5px;
+    padding: 5px;
+   color: rgba(45, 43, 43, 0.749);
+}
+.style2
+{
+    margin:10px;
+    padding: 5px;
+    color: rgba(45, 43, 43, 0.749);
+}
+.style2:hover{
+    background-color:  rgba(237, 218, 218, 0.37);
+}
+.style3
+{
+    padding:120px;
+    color: rgba(45, 43, 43, 0.749);
+}
+.btn2
+{
+    width:100px;
+    height:30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin:10px;
+    margin-left: 170px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(45, 43, 43, 0.749);
+    background-color:rgba(237, 218, 218, 0.662) ;
+}
